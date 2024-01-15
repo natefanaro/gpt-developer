@@ -34,7 +34,7 @@ runs:
         python-version: 3.11
     - name: "Install Python dependencies"
       run: |
-        pip install openai
+        pip install openai==0.28
       shell: bash
     - name: "Install Prettier"
       run: |
